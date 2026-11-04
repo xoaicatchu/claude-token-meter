@@ -5,23 +5,21 @@ Một dòng chữ nhỏ, mờ, dính trên thanh tiêu đề cửa sổ Claude t
 ## Yêu cầu
 
 - Windows (widget dùng PowerShell và WPF, có sẵn trên Windows).
-- Claude Code hoặc app Claude desktop bản mới có hỗ trợ mod.
+- App Claude desktop hoặc Claude Code bản mới có hỗ trợ mod. Đã chạy trên engine 2.1.317. CLI 2.1.126 cài được nhưng không đọc được mod, cần cập nhật.
 - Đăng nhập bằng gói trả phí (Pro, Max...). Dùng API key thì không có số hạn mức.
 
 ## Cài đặt
 
-Đổi `<owner>` thành tài khoản GitHub chứa repo này.
-
 **Trong app Claude desktop (tab Code):**
 
 1. Bấm dấu **+** cạnh ô nhập, chọn **Plugins**.
-2. Chọn **Add marketplace**, nhập `<owner>/claude-token-meter`.
+2. Chọn **Add marketplace**, nhập `xoaicatchu/claude-token-meter`.
 3. Chọn **Add plugin**, chọn `token-meter`.
 
 **Hoặc từ terminal:**
 
 ```bash
-claude plugin install token-meter --marketplace <owner>/claude-token-meter
+claude plugin install token-meter --marketplace xoaicatchu/claude-token-meter
 ```
 
 Nếu được hỏi thêm marketplace thì trả lời `y`, rồi chọn phạm vi `user`.
